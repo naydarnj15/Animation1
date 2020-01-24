@@ -81,7 +81,7 @@ function Fire(game, spritesheet) {
     this.animation = new Animation(spritesheet, 128, 128, 4, 0.24, 8, false, 0.5);
     this.speed = 0;
     this.ctx = game.ctx;
-    Entity.call(this, game, 330, 150);
+    Entity.call(this, game, 330, 155);
 }
 
 Fire.prototype = new Entity();
